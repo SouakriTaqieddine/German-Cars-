@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    height: 000px;
+    
+}
+p{
+    font-weight: 300;
+    color: #111;
+}
+.banner{
+position: relative;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: url( fm.webp);
+background-size: cover;
+}
+.banner .content{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2{
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+}
+.banner .content p{
+    font-size: 1em;
+    color:rgb(255, 255, 255);
+}
+.btn{
+    font-size: 1em;
+    color:rgb(255, 255, 255);
+    background:#04b9ef;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.05);
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header.sticky .logo{
+    color: #111;
+}
+header .logo span{
+    color:#04b9ef;
+}
+header .navigation{
+    position:relative;
+    display: flex;
+}
+header .navigation li{
+    list-style:none;
+    margin-left: 30px;
+}
+
+header .navigation li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 300;
+}
+header.sticky .navigation li a{
+    color: #111;
+}
+header .navigation li a:hover{
+    color:#04b9ef;
+
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+.titletext{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.titletext span{
+    color: #04b9ef;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.row .col50 .imgBx{
+    position: relative;
+    width: 100%;
+    /*min-height: 300px;*/
+    height: 100%;
+}
+.row .col50 .imgBx img{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .title span{
+    color: #04b9ef;
+}
+.menu .title p{
+    font-weight: 300;
+}
+.menu .content .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    border: 0 5px 35px rgba(0,0,0,0.08);
+}
+.menu .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBx img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu .content .box .text{
+   padding: 15px  5px;
+}
+.menu .content .box .text h3{
+    font-weight: 400;
+    color: #111;
+}
+.titletext{
+    color: #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+.titletext span{
+    color:#04b9ef;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.title .titleText span{
+    color: #04b9ef;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.Expert .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+ .Expert .content .box{
+     width: 250px;
+     margin: 15px;
+ }
+ .Expert .content .box .imgBx{
+     position: relative;
+     width: 100%;
+     height: 300px;
+ }
+ .Expert .content .box .imgBx img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Expert .content .box .text{
+    padding: 15px 0 5px ;
+}  
+.Expert .content .box .text h3{
+    font-weight: 400;
+    color: #111;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Testimonials{
+    background: url(fm.webp);
+    background-size: cover;
+}
+.white .titleText,
+.white p{
+    color: #fff;
+}
+.Testimonials .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.Testimonials .content .box{
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.contact{
+    background :url(cct2.webp);  
+    background-size: cover;
+    text-align:center;
+
+  }
+  .titletext {
+    color: #04b9ef;
+  }
+  .contactform{
+  padding: 75px 50px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin-top: 50px;
+  }
+  .contactform h3{
+   color: #111;
+   font-size: 1.2em;
+   margin-bottom: 20px;
+   font-weight: 500;
+  }
+  .contactform .inputbox{
+    position: relative;
+    width:100%;
+    margin-bottom: 20px;
+  }
+  .contactform .inputbox input,
+  .contactform .inputbox textarea {
+   width:100%;
+   border: 1px solid #555;
+   padding:10px;
+   color:#111;
+   outline: none;
+   font-size: 16px;
+   font-weight: 300;
+   resize:none;
+  }
+  .contactform .inputbox input[type="submit"]{
+    font-size: 1em;
+    color: #fff;
+    background:  #04b9ef;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+  }
+  .copyrighttext{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+
+  }
+  .copyrighttext p{
+    color:#333,
+  }
+  .copyrighttext p a{
+    color: #04b9ef;
+    font-weight: 500;
+    text-decoration: none;
+
+  }copyrighttext{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+
+  }
+  .copyrighttext p{
+    color:#333,
+  }
+  .copyrighttext p a{
+    color: #04b9ef;
+    font-weight: 500;
+    text-decoration: none;
+
+  } 
